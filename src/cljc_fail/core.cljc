@@ -1,5 +1,6 @@
 #?(:clj
     (ns cljc-fail.core
+      {:lang :core.typed}
       (:require [clojure.core.typed :as t])))
 
 #(inc 'a)
